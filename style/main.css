@@ -60,6 +60,13 @@ nav li a:hover {
 .content {
     flex: 3; /* Takes up 75% of the width */
     padding: 30px;
+    font-size: 2rem;
+    line-height: 1.75;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 /* Sidebar (Right) */
