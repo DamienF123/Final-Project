@@ -75,31 +75,31 @@ nav li a:hover {
 
 /* dropdown container */
 .dropdown-menu {
-    display: none !important;
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: black !important;
-    min-width: 240px !important;
-    border: 1px solid #555 !important;
-    z-index: 1000 !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    background-color: black;
+    min-width: 240px;
+    border: 1px solid #555;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
 }
 
 /* dropdown links */
 .nav li .dropdown-menu li a {
     display: block;
-    color: white !important;
-    font-weight: bold !important;
-    padding: 16px 22px !important;
-    font-size: 2rem !important;
-    text-decoration: none !important;
+    color: white;
+    font-weight: bold;
+    padding: 16px 22px;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 /* hover fropdown items */
 .nav li .dropdown-menu li a:hover {
-    background-color: #ffcc66 !important;
+    background-color: #ffcc66;
     color: black !important;
 }
 
