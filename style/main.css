@@ -34,6 +34,11 @@ nav ul {
     justify-content: center;
 }
 
+/* nav links */
+nav li {
+    position: relative;
+}
+
 nav li a {
     display: block;
     color: white;
@@ -52,6 +57,57 @@ nav li a:hover {
     display: flex;
     max-width: 1000px;
     margin: 0 auto; /* Centers the whole site content */
+    background-color: white;
+    min-height: 600px;
+}
+
+/* dropdown menu */
+.dropdown > a {
+    cursor: pointer;
+}
+
+/* white down arrow */
+.arrow {
+    font-size: 0.7rem;
+    margin-left: 6px;
+    color: white;
+}
+
+/* dropdown container */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    min-width: 180px;
+    border: 1px solid #555;
+    z-index: 1000;
+}
+
+/* dropdown items */
+.dropdown-menu li a {
+    padding: 12px 15px;
+    font-weight: normal;
+    color: white;
+}
+
+/* dropdown hover */
+.dropdown-menu la a:hover {
+    background-color: #ffcc66;
+    color: black;
+}
+
+/* show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* flexbox layout */
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
     background-color: white;
     min-height: 600px;
 }
