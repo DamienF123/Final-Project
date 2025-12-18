@@ -89,7 +89,7 @@ nav li a:hover {
 
 /* dropdown links */
 .nav li .dropdown-menu li a {
-    display: block !important;
+    display: block;
     color: white !important;
     font-weight: bold !important;
     padding: 16px 22px !important;
@@ -105,7 +105,7 @@ nav li a:hover {
 
 /* show dropdown on hover */
 .nav li.dropdown:hover .dropdown-menu {
-    display: block !important;
+    display: block;
 }
 
 /* flexbox layout */
