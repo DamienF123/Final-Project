@@ -88,23 +88,23 @@ nav li a:hover {
 }
 
 /* dropdown links */
-.nav li .dropdown-menu li a {
+.dropdown-menu li a {
     display: block;
     color: white;
-    font-weight: bold;
     padding: 16px 22px;
+    font-weight: bold;
     font-size: 2rem;
     text-decoration: none;
 }
 
 /* hover fropdown items */
-.nav li .dropdown-menu li a:hover {
+.dropdown-menu li a:hover {
     background-color: #ffcc66;
-    color: black !important;
+    color: black;
 }
 
 /* show dropdown on hover */
-.nav li.dropdown:hover .dropdown-menu {
+.dropdown:hover > .dropdown-menu {
     display: block;
 }
 
